@@ -1,0 +1,178 @@
+# Site settings
+baseurl = "//jdve.me"
+languageCode = "en-us"
+title = "Jonathan Van Eenwyk"
+theme = "highlights"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = "UA-154137516-1"
+
+[params]
+
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engings feel free to add a few informations.
+  # This lines will be inserted as meta tags.
+  name = "Jonathan Van Eenwyk"
+  description = "I'm a software guy--part consultant, part project manager.  I love designing creative solutions to hard problems, while finding the right talent team to make it happen."
+
+  # For a static site it's not possible to provide a contact form. The contact form uses
+  # www.formcarry.com as a proxy. The form makes a Post request to their servers to send an email
+  # Visitors can send up to a 1000 emails each month
+  #
+  # How to setup formspree
+  #
+  # - set your formcarry id under 'formcarry' below
+  # - upload the generated site to your server
+  # - That's all. Enjoy mailing!
+  formcarry = "RNcg_0Kq4tP"
+
+  # If this param is set to true, every section gets an own background image (located at static/images)
+  # to change the image you could use the param picture on every section.
+  # If it's disabled you could change the background to overwrite the bg.jpg and overlay.png to set the background.
+  backgroundpersection = true
+
+  # hero Section
+  [params.hero]
+    type = "hero"
+    title = "Jonathan Van Eenwyk"
+    description = "Software Consultant"
+    buttontext = "begin"
+
+  # about section
+  [[params.block]]
+    id = "about"
+    type = "text"
+    title = "Who I Am"
+    description = """
+Hi! My name is Jonathan Van Eenwyk. I'm a software guy--part developer, part
+architect, part project manager. I enjoy designing creative solutions to hard
+problems, and I love building the right talent team to make it happen. I'm
+co-director of [Vihanti Digital Services](//vihanti.com/), helping businesses
+everywhere unleash their creativity.
+"""
+
+    buttontext = "begin"
+    # the picture is stored at static/images/
+    picture = "pic01.jpg"
+
+  # skill section
+  [[params.block]]
+    id = "skills"
+    type = "list"
+    title = "Stuff I do"
+    description = ""
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic02.jpg"
+
+    [[params.block.item]]
+      icon = "fa-search"
+      title = "Talent"
+      description = "I relish the challenge of finding the right people for the job."
+
+    [[params.block.item]]
+      icon = "fa-users"
+      title = "Team"
+      description = "I enjoy mentoring people to be more than they could imagine."
+
+    [[params.block.item]]
+      icon = "fa-code"
+      title = "Tech"
+      description = "I find crafting elegant code to solve real life problems immensely satisfying."
+
+    [[params.block.item]]
+      icon = "fa-coffee"
+      title = "Coffee"
+      description = "My favorite way to coffee."
+
+  # infos section
+  [[params.block]]
+    id = "infos"
+    type = "text"
+    title = "One more thing"
+    description = """
+My development philosophy could perhaps be summarized this way:
+
+> To ask the 'right' question is far more important than to receive the
+> answer." — Jiddu Krishnamurti
+
+This means never falling into the trap of using a hammer to solve every
+problem like it's a nail. For me, this philospopy has given me the
+privilege of using many different programming languages and frameworks[^1]
+note, recognizing that each one has its areas of strengths and
+weaknesses. And that's the fun of it [^2]!
+
+[^1]: To name a few, AWS (including Lambdas), C/C++, .NET (especially
+C#), Docker/Mesos/Marathon, Elasticsearch, frontend web (including
+Angular and CoffeeScript), Java, Groovy, Python (including Django and
+Flask), RabbitMQ, and Scala.
+
+[^2]: I love experimenting with the bleeding edge. For many years,
+this led me towards fringe operating systems (like BeOS). Today, I
+enjoy playing with less mainstream programming languages (like Haskell
+and Nim).
+"""
+
+    # the picture is stored at static/images/
+    picture = "pic03.jpg"
+
+#  # custom section
+#  [[params.block]]
+#    id = "important"
+#    # to make custom section copy <theme>/layouts/partials/text.html to /layouts/partials/custom.html and edit it according to your needs.
+#    type = "custom"
+#    title = "Don't forget"
+#    description = "Curabitur massa ante, semper at massa et, semper pellentesque velit. Duis tempor est nisi, a gravida risus malesuada eget. Nunc rutrum arcu laoreet mauris sodales vehicula. Nunc iaculis felis ac dui egestas, vel ullamcorper tellus bibendum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia sem porttitor, fringilla metus at, convallis quam. Integer convallis a justo non pellentesque."
+#    # the picture is stored at static/images/
+#    picture = "pic04.jpg"
+
+  # contact form
+  [[params.block]]
+    id = "contact"
+    type = "contact"
+    title = "Get in Touch"
+    picture = "bg.jpg"
+
+    [params.block.form]
+      name = "Name"
+      email = "Your Email"
+      message = "Your Message"
+      buttontext = "send message"
+
+  # footer section
+  # this section includes last block and social icons
+
+  [params.footer]
+    enable = true
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+      [[params.footer.social]]
+        title = "Twitter"
+        icon = "fa-twitter"
+        link = "//twitter.com/iamjdve"
+
+      [[params.footer.social]]
+        title = "LinkedIn"
+        icon = "fa-envelope"
+        link = "//www.linkedin.com/in/jonathanvaneenwyk/"
+
+      [[params.footer.social]]
+        title = "GitHub"
+        icon = "fa-github"
+        link = "//github.com/jdve"
+
+    # copyright
+    #[params.footer.copyright.notice]
+
+      [[params.footer.copyright.notice]]
+        text = "© Jonathan Van Eenwyk"
+
+      [[params.footer.copyright.notice]]
+        text = "Design: [HTML5UP](//html5up.net)"
