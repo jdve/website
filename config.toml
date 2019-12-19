@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "//jdve.me"
+baseurl = "//jdve.me/"
 languageCode = "en-us"
 title = "Jonathan Van Eenwyk"
 theme = "highlights"
@@ -48,6 +48,9 @@ googleAnalytics = "UA-154137516-1"
     type = "text"
     title = "Who I Am"
     description = """
+
+![](images/photo.jpg)
+
 Hi! My name is Jonathan Van Eenwyk. I'm a software guy--part developer, part
 architect, part project manager. I enjoy designing creative solutions to hard
 problems, and I love building the right talent team to make it happen. I'm
