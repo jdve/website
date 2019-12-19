@@ -163,7 +163,7 @@ and Nim).
 
       [[params.footer.social]]
         title = "LinkedIn"
-        icon = "fa-envelope"
+        icon = "fa-linkedin"
         link = "//www.linkedin.com/in/jonathanvaneenwyk/"
 
       [[params.footer.social]]
