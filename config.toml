@@ -157,6 +157,11 @@ and Nim).
       enable = true
 
       [[params.footer.social]]
+        title = "GitHub"
+        icon = "fa-github"
+        link = "//github.com/jdve"
+
+      [[params.footer.social]]
         title = "Twitter"
         icon = "fa-twitter"
         link = "//twitter.com/iamjdve"
@@ -167,9 +172,9 @@ and Nim).
         link = "//www.linkedin.com/in/jonathanvaneenwyk/"
 
       [[params.footer.social]]
-        title = "GitHub"
-        icon = "fa-github"
-        link = "//github.com/jdve"
+        title = "SoundCloud"
+        icon = "fa-soundcloud"
+        link = "//soundcloud.com/iamjdve"
 
     # copyright
     #[params.footer.copyright.notice]
