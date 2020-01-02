@@ -172,6 +172,11 @@ and Nim).
         link = "//www.linkedin.com/in/jonathanvaneenwyk/"
 
       [[params.footer.social]]
+        title = "Keybase"
+        icon = "fa-keybase"
+        link = "//keybase.io/jdve"
+
+      [[params.footer.social]]
         title = "SoundCloud"
         icon = "fa-soundcloud"
         link = "//soundcloud.com/iamjdve"
