@@ -169,7 +169,7 @@ and Nim).
       [[params.footer.social]]
         title = "LinkedIn"
         icon = "fa-linkedin"
-        link = "//www.linkedin.com/in/jonathanvaneenwyk/"
+        link = "//www.linkedin.com/in/jdve/"
 
       [[params.footer.social]]
         title = "Keybase"
