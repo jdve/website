@@ -1,0 +1,62 @@
+/*
+  This css file is for individual users to restyle items for their personal site,
+  or for the implementation of features specifically for their site. Anything that
+  is an official part of the theme (ex. Pull Requests) should be included in main.css
+  within the formating given.
+*/
+
+.icon.major {
+  display: block;
+  margin: 0;
+}
+
+.icon.major:before {
+  font-size: 2.5em;
+}
+
+ul.grid-icons {
+  width: 60%;
+  margin: 2em auto;
+  list-style: none;
+  position: relative;
+  text-align: center;
+  padding: 0;
+}
+
+ul.grid-icons li {
+  display: block;
+  float: left;
+  padding: 0;
+  width: 50%;
+}
+
+ul.grid-icons li h3 {
+  margin: 0;
+}
+
+ul.grid-icons li p {
+  margin: 1em;
+}
+
+ul.grid-icons li:nth-child(2n + 1) {
+  box-shadow: inset -1px 0 0 0 #dddddd, 1px 0 0 0 #dddddd;
+}
+
+ul.grid-icons li:nth-child(2n + 3):before {
+  background: #dddddd;
+  content: '';
+  display: block;
+  height: 2px;
+  position: absolute;
+  width: 100%;
+}
+
+ul.grid-icons:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.footnotes {
+  font-size: smaller;
+}
