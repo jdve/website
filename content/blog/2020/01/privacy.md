@@ -17,7 +17,7 @@ Google, and you'll be overwhelmed with "free generators" that are only sort of
 free.  Not only do they intentionally leave out the important parts of the
 policy unless you pay, many of them also seem quite poorly written.
 
-Thankfully, [BaseCamp](https://basecamp.com/) has generously [open
+Thankfully, [Basecamp](https://basecamp.com/) has generously [open
 sourced](https://github.com/basecamp/policies) their privacy policy and terms of
 service!  Plus, their version is actually readable by normal humans, unlike so
 many that are filled with legal jargon.
