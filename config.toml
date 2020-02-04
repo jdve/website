@@ -30,6 +30,8 @@ canonifyURLs = true
   navbarTitle          = "Jonathan Van Eenwyk"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/blog/"
+  # Sets date format for SEO structured data
+  ISO8601              = "2006-01-02T15:04:05PST"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
