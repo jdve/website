@@ -1,6 +1,6 @@
 [submodule "themes/hugo-future-imperfect"]
 	path = themes/hugo-future-imperfect
-	url = git@github.com:jdve/hugo-future-imperfect.git
+	url = https://github.com/jdve/hugo-future-imperfect.git
 [submodule "public"]
 	path = public
 	url = git@github.com:jdve/jdve.github.io.git
