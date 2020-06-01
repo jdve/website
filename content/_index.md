@@ -37,12 +37,11 @@ privilege of using many different programming languages and frameworks[^1],
 recognizing that each one has its areas of strengths and
 weaknesses. And that's the fun of it [^2]!
 
-[^1]: To name a few, AWS (including Lambdas), C/C++, .NET (especially
-C#), Docker/Mesos/Marathon, Elasticsearch, frontend web (including
-Angular and CoffeeScript), Java, Groovy, Python (including Django and
-Flask), RabbitMQ, and Scala.
+[^1]: To name a few, AWS (including Lambdas), C/C++, .NET (especially C#),
+  Docker/Mesos/Marathon, Elasticsearch, frontend web (including Angular and
+  CoffeeScript), Java, Groovy, Python (including Django and Flask), RabbitMQ,
+  and Scala.
 
-[^2]: I love experimenting with the bleeding edge. For many years,
-this led me towards fringe operating systems (like BeOS). Today, I
-enjoy playing with less mainstream programming languages (like Haskell
-and Nim).
+[^2]: I love experimenting with the bleeding edge. For many years, this led me
+  towards fringe operating systems (like BeOS). Today, I enjoy playing with less
+  mainstream programming languages (like Haskell and Nim).
