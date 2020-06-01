@@ -5,11 +5,8 @@ date = "2019-12-18"
 
 # About Me
 
-Hi! My name is Jonathan Van Eenwyk. I'm a software guy--part developer, part
-architect, part project manager. I enjoy designing creative solutions to hard
-problems, and I love building the right talent team to make it happen. I'm
-co-director of [Vihanti Digital Services](//vihanti.com/), helping businesses
-everywhere unleash their creativity.
+Hi! My name is Jonathan Van Eenwyk.  I'm a software consultant with a penchant
+for tackling hard problems with creative solutions.
 
 {{< grid-icons >}}
    {{< grid-icon title="Talent" icon="fa-search" >}}

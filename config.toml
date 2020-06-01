@@ -25,7 +25,7 @@ canonifyURLs = true
 
 [params]
   # Sets the meta tag description
-  description          = "I'm a software guy--part consultant, part project manager.  I love designing creative solutions to hard problems, while finding the right talent team to make it happen."
+  description          = "I'm a software consultant with a penchant for tackling hard problems with creative solutions."
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Jonathan Van Eenwyk"
   # Sets where "View More Posts" links
@@ -105,7 +105,7 @@ canonifyURLs = true
 
   paragraph = "Software Consultant"
 
-  about     = "I'm a software guy--part consultant, part project manager.  I love designing creative solutions to hard problems, while finding the right talent team to make it happen."
+  about     = "I'm a software consultant with a penchant for tackling hard problems with creative solutions."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
