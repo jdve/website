@@ -18,10 +18,8 @@ info to third parties, and we won’t use your name or company in marketing
 statements without your permission, either.
 
 When you write us with a question or to ask for help, we'll keep that
-correspondence, and the email address, for future reference. When you browse our
-marketing pages, we'll track that for statistical purposes (like conversion
-rates and to test new designs). We also store any information you volunteer,
-like surveys, for as long as it makes sense.
+correspondence, and the email address, for future reference. We also store any
+information you volunteer, like surveys, for as long as it makes sense.
 
 The only times we’ll ever share your info:
 
@@ -77,7 +75,7 @@ certain third party processors to process some or all of your personal
 information. Here are the processors we use:
 
 * [Porkbun](https://porkbun.com/). Domain name registrar.
-* [Netlify](https://netlify.com/). Web hosting.
+* [Netlify](https://netlify.com/). Web hosting and forms.
 
 ## Law Enforcement
 
