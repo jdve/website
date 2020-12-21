@@ -3,7 +3,7 @@ author = "Jonathan Van Eenwyk"
 title = "Privacy Policy"
 +++
 
-*Last updated: January 29, 2020*
+*Last updated: December 21, 2020*
 
 The privacy of your data--and it is your data, not ours!-- is a big deal to us.
 We log all access to our website by IP address, so we can always verify that no
@@ -13,9 +13,9 @@ unauthorized access has happened for as long as the logs are kept.
 
 When you fill out our contact form, we ask for your name and email address.
 That's just a convenience, so that you can email us right from the website.  We
-use [formspree.io](https://formspree.io/) to do this. We’ll never sell your
-personal info to third parties, and we won’t use your name or company in
-marketing statements without your permission, either.
+use [Netlify](https://netlify.com) to do this. We’ll never sell your personal
+info to third parties, and we won’t use your name or company in marketing
+statements without your permission, either.
 
 When you write us with a question or to ask for help, we'll keep that
 correspondence, and the email address, for future reference. When you browse our
@@ -77,8 +77,7 @@ certain third party processors to process some or all of your personal
 information. Here are the processors we use:
 
 * [Porkbun](https://porkbun.com/). Domain name registrar.
-* [Github Pages](https://pages.github.com/). Web hosting.
-* [formspree.io](https://formspree.io/). Email forms.
+* [Netlify](https://netlify.com/). Web hosting.
 
 ## Law Enforcement
 
